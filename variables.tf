@@ -1,11 +1,11 @@
 variable "rg_name" {
   type    = string
-  default = "MARS1"
+  default = "DATABASE"
 }
 
 variable "location" {
   type    = string
-  default = "eastus"
+  default = "centralus" 
 }
 
 variable "post" {
