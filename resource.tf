@@ -19,8 +19,4 @@ resource "azurerm_postgresql_flexible_server_database" "postdb" {
   server_id = azurerm_postgresql_flexible_server.post.id
   collation = "en_US.utf8"
   charset   = "UTF8"
-
-  lifecycle {
-    prevent_destroy = true
-  }
 }
