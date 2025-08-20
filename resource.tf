@@ -7,7 +7,7 @@ resource "azurerm_postgresql_flexible_server" "post" {
   name                   = var.post
   resource_group_name    = azurerm_resource_group.rg.name
   location               = azurerm_resource_group.rg.location
-  version                = "13"
+  version                = "16"
   administrator_login    = var.admin_name
   administrator_password = var.admin_pass
   storage_mb             = 32768
